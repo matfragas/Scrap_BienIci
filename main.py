@@ -39,8 +39,8 @@ def main():
         '--output', 
         type=str,
         required=False, 
-        default='data_bienici_lobstr_io.csv',
-        help='filename to save the results — by default data_bienici_lobstr_io.csv'
+        default='data_bienici_lobstr_io_1.csv',
+        help='filename to save the results — by default data_bienici_lobstr_io_1.csv'
     )
 
     args = parser.parse_args()
