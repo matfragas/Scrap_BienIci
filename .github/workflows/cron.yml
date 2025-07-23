@@ -1,7 +1,7 @@
 name: Scraper BIEN ICI
 on:
   schedule:
-    - cron: '0 15 * * *'  # 15h UTC = 17h Paris (UTC+2 en été)
+    #- cron: '0 15 * * *'  # 15h UTC = 17h Paris (UTC+2 en été)
   workflow_dispatch:     # Permet aussi de le lancer manuellement
 
 jobs:
